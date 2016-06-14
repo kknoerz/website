@@ -1,0 +1,382 @@
+body {
+  background-color: #f3f3f3;
+  /*background-image: url("http://www.transparenttextures.com/patterns/light-wool.png");*/
+  padding: 50px;
+  /*font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;*/
+  font-family: 'Droid Sans', sans-serif;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+}
+a:hover {
+  color: #00B7FF;
+}
+
+@font-face {
+  font-family:mono-space;
+  src:url(/fonts/Bitstream_Vera_Sans_Mono_Roman.ttf);
+}
+
+/******** STATIC LEFT-SIDE LAYOUT **************** ******** ******** ********  */
+
+#left {
+  z-index: -2;
+  border-bottom-left-radius: 75%;
+  border-bottom-right-radius: 75%;
+  border-top-left-radius: 75%;
+  border-top-right-radius: 75%;
+  display: inline-block;
+  background-color: #fff;
+  vertical-align: top;
+  background-color: #eee;
+  margin-bottom: 285px;
+  margin-top: 15px;
+
+}
+
+#title {
+  /*z-index: 2;*/
+  box-shadow: 0px 0px 19px #000;
+  background-color: #bbbbbb;
+  background-image: url("http://www.transparenttextures.com/patterns/green-dust-and-scratches.png");
+  border: 2px solid #999;
+  margin: 0 auto;
+  padding: 10px;
+  background-color: #ccc;
+  border-top-left-radius: 75%;
+  border-top-right-radius: 75%;
+  border-bottom-left-radius: 75%;
+  border-bottom-right-radius: 75%;
+}
+
+#title h1 {
+  text-align: center;
+  font-size: 2em;
+}
+
+#title h3 {
+  text-align: center;
+  font-size: 1.5em;
+  padding-bottom: 20px;
+}
+
+
+#profile {
+  border: 2px solid #00c0ff;
+  display: block;
+  margin: 5px 30px;
+  width: 35%;
+  border-radius: 50%;
+}
+
+#contact h3 {
+  text-align: center;
+  font-size: 1.5em;
+}
+
+#contact-links {
+  z-index: 1;
+  display: flex;
+  margin-top: 5%;
+}
+
+#contact-links a {
+  width: 20px;
+  z-index: 1;
+  margin: 0 auto;
+}
+
+#contact-links a .contact-logo {
+  width: 100%;
+  height: 100%;
+}
+
+.contact-logo {
+  -webkit-filter: grayscale(70%);
+}
+
+#connect-links {
+  clear: both;
+  text-align: center;
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+
+#about-me, #contact-me {
+  padding: 10px;
+  text-align: center;
+  display: inline-block;
+  margin: 0 auto;
+}
+
+#about-me a, #contact-me a {
+  text-decoration: none;
+}
+
+h1 span, h2 span, h3 span {
+  z-index: 1;
+  font: 1em mono-space;
+  height: 25%;
+  position: absolute;
+  width: 20px;
+  left: 190px;
+  top: 40px;
+  transform-origin: bottom center;
+}
+
+h1 span {
+  z-index: -1;
+}
+
+h2 span {
+  font-size: 1.25em;
+  color: #00c0ff;
+  text-shadow: 2px 2px 2px #517582;;
+}
+
+h3 span {
+  color: #fff;
+  text-shadow: 2px 2px 2px #333;
+}
+
+@keyframes h1Char1 {from {transform: rotate(-70deg);} to {transform: rotate(290deg);}}
+h1 .char1 { transform: rotate(-70deg); animation: h1Char1 15s infinite alternate}
+
+@keyframes h1Char2 {from {transform: rotate(-60deg);} to {transform: rotate(300deg);}}
+h1 .char2 { transform: rotate(-60deg);  animation: h1Char2 15s infinite alternate}
+
+@keyframes h1Char3 {from {transform: rotate(-50deg);} to {transform: rotate(310deg);}}
+h1 .char3 { transform: rotate(-50deg);  animation: h1Char3 15s infinite alternate}
+
+@keyframes h1Char4 {from {transform: rotate(-40deg);} to {transform: rotate(320deg);}}
+h1 .char4 { transform: rotate(-40deg);  animation: h1Char4 15s infinite alternate}
+
+@keyframes h1Char5 {from {transform: rotate(-30deg);} to {transform: rotate(330deg);}}
+h1 .char5 { transform: rotate(-30deg);  animation: h1Char5 15s infinite alternate}
+
+@keyframes h1Char6 {from {transform: rotate(-20deg);} to {transform: rotate(340deg);}}
+h1 .char6 { transform: rotate(-20deg);  animation: h1Char6 15s infinite alternate}
+
+@keyframes h1Char7 {from {transform: rotate(-10deg);} to {transform: rotate(350deg);}}
+h1 .char7 { transform: rotate(-10deg);  animation: h1Char7 30s infinite linear}
+
+@keyframes h1Char8 {from {transform: rotate(0deg);} to {transform: rotate(360deg);}}
+h1 .char8 { transform: rotate(0deg);  animation: h1Char8 30s infinite linear}
+
+@keyframes h1Char9 {from {transform: rotate(10deg);} to {transform: rotate(370deg);}}
+h1 .char9 { transform: rotate(10deg);  animation: h1Char9 30s infinite linear}
+
+@keyframes h1Char10 {from {transform: rotate(20deg);} to {transform: rotate(380deg);}}
+h1 .char10 { transform: rotate(20deg);  animation: h1Char10 30s infinite linear}
+
+@keyframes h1Char11 {from {transform: rotate(30deg);} to {transform: rotate(390deg);}}
+h1 .char11 { transform: rotate(30deg);  animation: h1Char11 30s infinite linear}
+
+@keyframes h1Char12 {from {transform: rotate(40deg);} to {transform: rotate(400deg);}}
+h1 .char12 { transform: rotate(40deg);  animation: h1Char12 30s infinite linear}
+
+@keyframes h1Char13 {from {transform: rotate(50deg);} to {transform: rotate(410deg);}}
+h1 .char13 { transform: rotate(50deg);  animation: h1Char13 30s infinite linear}
+
+@keyframes h1Char14 {from {transform: rotate(60deg);} to {transform: rotate(420deg);}}
+h1 .char14 { transform: rotate(60deg);  animation: h1Char14 30s infinite linear}
+
+h2 .char1 { transform: rotate(80deg); }
+h2 .char2 { transform: rotate(90deg); }
+h2 .char3 { transform: rotate(100deg); }
+h2 .char4 { transform: rotate(110deg); }
+h2 .char5 { transform: rotate(120deg); }
+h2 .char6 { transform: rotate(130deg); }
+h2 .char7 { transform: rotate(140deg); }
+h2 .char8 { transform: rotate(150deg); }
+h2 .char9 { transform: rotate(160deg); }
+h2 .char10 { transform: rotate(170deg); }
+
+h3 .char1 { transform: rotate(190deg); }
+h3 .char2 { transform: rotate(200deg); }
+h3 .char3 { transform: rotate(210deg); }
+h3 .char4 { transform: rotate(220deg); }
+h3 .char5 { transform: rotate(230deg); }
+h3 .char6 { transform: rotate(240deg); }
+h3 .char7 { transform: rotate(250deg); }
+h3 .char8 { transform: rotate(260deg); }
+h3 .char9 { transform: rotate(270deg); }
+
+
+
+
+
+
+/******** DYNAMIC RIGHT-SIDE LAYOUT ************* ******** ******** ********  */
+
+#right {
+  box-shadow: 0px 0px 19px #000 inset;
+  background-image: url("http://www.transparenttextures.com/patterns/green-dust-and-scratches.png");
+  border-top-left-radius: 70px;
+  border-top-right-radius: 70px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  max-height: 600px;
+  vertical-align: top;
+  overflow: scroll;
+  background-color: #bbb;
+  border-width: 2px;
+  border-style: solid;
+  border-color: #999;
+}
+
+.content-about h1 {
+  text-align: center;
+  font-size: 2em;
+  padding-top: 10px;
+}
+
+iframe.giphy-embed {
+  display: inline-block;
+  float: left;
+  width: 45%;
+  margin: 0 20px;
+}
+
+.content-p {
+  font-family: 'Ubuntu', sans-serif;
+  line-height: 150%;
+  width: 45%;
+  display: inline-block;
+  margin: 0px;
+  padding: 20px 20px;
+  text-align: center;
+  box-shadow: 0px 0px 10px #333 inset;
+  border-radius: 50px;
+  background-color: #aaa;
+}
+
+.content-p a {
+  text-decoration: none;
+}
+
+.giphy-link {
+  display: block;
+  /* float: left; */
+  padding: 0px 0px 0px 20px;
+}
+
+.giphy-link a {
+  text-decoration: none;
+}
+
+.link a, .code a, .back a, #more-link a{
+  text-decoration: none;
+}
+.link a, .code a, .back a {
+  padding: 5px;
+}
+.image-container {
+  padding: 0px 20px 20px 20px;
+  width: 100%;
+}
+
+.back a, .back {
+  text-shadow: 0px 1px 1px #3b484c;
+  color: #00c0ff
+}
+
+.back a:hover, .back:hover {
+  color: #fff;
+}
+
+
+
+/********************* /index *****************************/
+
+#latest {
+  margin-top: 15px;
+  border-radius: 25%;
+}
+
+#latest h1, #more-link a, #portfolio h1 {
+  color: #fff;
+  text-shadow: 2px 1px 5px #333;
+  margin-top: 20px;
+  text-align: center;
+  font-size: 2em;
+}
+
+#portfolio h1 a.back {
+  margin-right: 30px;
+  float: right;
+  text-decoration: none;
+  font-size: .5em;
+}
+
+#more-link {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+#more-link a:hover {
+  color: #00B7FF;
+}
+
+.snapshot-container {
+  padding: 30px;
+  width: 100%;
+}
+.snapshot-icon {
+  box-shadow: 0px 0px 19px #000;
+  width: 75%;
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 15px;
+}
+
+.snapshot-about {
+  font-family: 'Ubuntu', sans-serif;
+  line-height: 150%;
+  font-size: 18px;
+  text-align: center;
+  display: block;
+  margin: 0 auto;
+}
+
+.portfolio-container {
+  background: linear-gradient(#fff, rgba(51, 51, 51, 0));
+  border-radius: 15px;
+  margin: 15px;
+  float: left;
+  padding: 10px;
+  width: 45%;
+}
+.portfolio-icon {
+  border: 2px solid #00c0ff;
+  box-shadow: 0px 5px 5px #517582;
+  opacity: .8;
+  width: 100%;
+  display: block;
+  margin: 0 auto;
+}
+
+.portfolio-icon:hover {
+  border: 3px solid #00c0ff;
+  transform: scale(1.1);
+  opacity: 1;
+}
+
+.portfolio-about {
+  font-family: 'Ubuntu', sans-serif;
+  line-height: 150%;
+  font-size: 18px;
+  text-align: center;
+  display: block;
+  margin: 0 auto;
+  margin-top: 15px;
+}
+
+.read-more a, .portfolio-about a {
+  text-decoration: none;
+}
+
+/********************* /marvel *****************************/
