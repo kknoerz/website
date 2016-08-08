@@ -403,14 +403,19 @@ iframe.giphy-embed-clipboard {
 	margin: 0 auto;
 }
 
+#portfolio-container_container {
+	margin: 15px;
+}
+
 .portfolio-container {
 	background: linear-gradient(#fff, rgba(51, 51, 51, 0));
 	border-radius: 15px;
 	margin: 15px;
 	float: left;
 	padding: 10px;
-	width: 45%;
+	width: 44%;
 	height: 300px;
+	/*margin: 0 auto;*/
 }
 .portfolio-icon {
 	border: 2px solid #00c0ff;
