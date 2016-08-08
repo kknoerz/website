@@ -23,6 +23,7 @@ a:hover {
 
 #left {
 	z-index: -2;
+	/*width: 30%;*/
 	border-bottom-left-radius: 75%;
 	border-bottom-right-radius: 75%;
 	border-top-left-radius: 75%;
@@ -37,6 +38,7 @@ a:hover {
 
 #title {
 	/*z-index: 2;*/
+	/*width: 70%;*/
 	box-shadow: 0px 0px 19px #000;
 	background-color: #bbbbbb;
 	background-image: url("http://www.transparenttextures.com/patterns/green-dust-and-scratches.png");
@@ -214,17 +216,37 @@ h3 .char9 { transform: rotate(270deg); }
 #right {
 	box-shadow: 0px 0px 19px #000 inset;
 	background-image: url("http://www.transparenttextures.com/patterns/green-dust-and-scratches.png");
-	border-top-left-radius: 70px;
-	border-top-right-radius: 70px;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
 	border-bottom-left-radius: 10px;
 	border-bottom-right-radius: 10px;
 	max-height: 600px;
 	vertical-align: top;
-	overflow: scroll;
 	background-color: #bbb;
 	border-width: 2px;
 	border-style: solid;
 	border-color: #999;
+	overflow: hidden;
+}
+
+.mouseover:hover {
+	overflow-y: scroll !important;
+}
+
+.mouseover:hover::-webkit-scrollbar {
+    width: 10px;
+    background-color: rgba(0,0,0,0);
+}
+
+.mouseover:hover::-webkit-scrollbar-track {
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.2);
+	border-radius: 10px;
+}
+
+.mouseover:hover::-webkit-scrollbar-thumb {
+  background-color: darkgrey;
+  outline: 1px solid slategrey;
+  border-radius: 10px;
 }
 
 .content-about h1 {
@@ -388,6 +410,7 @@ iframe.giphy-embed-clipboard {
 	float: left;
 	padding: 10px;
 	width: 45%;
+	height: 300px;
 }
 .portfolio-icon {
 	border: 2px solid #00c0ff;
@@ -425,7 +448,7 @@ iframe.giphy-embed-clipboard {
 .portfolio-about {
 	font-family: 'Ubuntu', sans-serif;
 	line-height: 150%;
-	font-size: 18px;
+	font-size: 10pt;
 	text-align: center;
 	display: block;
 	margin: 0 auto;
